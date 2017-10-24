@@ -7,17 +7,16 @@ public class Main {
         Scanner number = new Scanner(System.in);
         String direction;
         int level = 0;
-        boolean done = false;
+
 
             System.out.print("direction(up,down,right,left): ");
             direction = number.next();
         try {
             System.out.print("Level: ");
             level = number.nextInt();
-            done = true;
+
         } catch (Exception e) {
             System.out.println("Podaj liczbe!");
-
         }
 
 
