@@ -9,16 +9,16 @@ public class Main {
         int level = 0;
 
 
-            System.out.print("direction(up,down,right,left): ");
-            direction = number.next();
+        System.out.print("direction(up,down,right,left): ");
+        direction = number.next();
+
         try {
             System.out.print("Level: ");
             level = number.nextInt();
-
-        } catch (Exception e) {
+        }
+        catch (Exception e) {
             System.out.println("Podaj liczbe!");
         }
-
 
         switch(direction) {
             case "up":
